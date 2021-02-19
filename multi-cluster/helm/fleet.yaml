@@ -3,7 +3,7 @@ targetCustomizations:
 - name: dev
   helm:
     values:
-      replication: false
+      replicas: 3
   clusterSelector:
     matchLabels:
       env: dev
